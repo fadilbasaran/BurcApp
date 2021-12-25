@@ -47,8 +47,8 @@ class _BurcDetayState extends State<BurcDetay> {
             ),
             SliverToBoxAdapter(
               child: Container(
-                margin: EdgeInsets.all(16),
-                padding: EdgeInsets.all(8),
+                margin: const EdgeInsets.all(16),
+                padding: const EdgeInsets.all(8),
                 child: SingleChildScrollView(
                   child: Text(widget.secilenBurc.burcDetay,
                       style: Theme.of(context).textTheme.headline5),

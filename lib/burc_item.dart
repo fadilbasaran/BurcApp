@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_burclar/burc_detay.dart';
 import 'package:flutter_burclar/model/burc.dart';
 
 class BurcItem extends StatelessWidget {
@@ -27,7 +26,7 @@ class BurcItem extends StatelessWidget {
             ),
             subtitle:
                 Text(listelenenBurc.burcTarihi, style: myTextStyle.subtitle1),
-            trailing: Icon(
+            trailing: const Icon(
               Icons.arrow_forward_ios,
               color: Colors.pink,
             ),
