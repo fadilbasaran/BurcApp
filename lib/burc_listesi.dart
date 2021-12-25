@@ -3,20 +3,21 @@ import 'package:flutter_burclar/burc_item.dart';
 import 'package:flutter_burclar/data/strings.dart';
 import 'package:flutter_burclar/model/burc.dart';
 
+// ignore: must_be_immutable
 class BurcListesi extends StatelessWidget {
   late List<Burc> tumBurclar = [];
 
-  BurcListesi() {
+  BurcListesi({Key? key}) : super(key: key) {
     tumBurclar = veriKaynaginiHazirla();
 
-    print(tumBurclar);
+    
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Burçlar Listesi'),
+        title: const Text('Burçlar Listesi'),
         backgroundColor: Colors.pink,
       ),
       body: Center(

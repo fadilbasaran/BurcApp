@@ -1,9 +1,9 @@
 class Strings {
-  Strings() {
-    print('Olusturuldu');
-  }
+
+  // ignore: constant_identifier_names
   static const String APP_NAME = "Burç Rehberi";
 
+  // ignore: constant_identifier_names
   static const List<String> BURC_ADLARI = [
     "Koc",
     "Boga",
@@ -19,6 +19,7 @@ class Strings {
     "Balik"
   ];
 
+  // ignore: constant_identifier_names
   static const List<String> BURC_TARIHLERI = [
     "21 Mart - 20 Nisan",
     "21 Nisan - 21 Mayıs",
@@ -34,6 +35,7 @@ class Strings {
     "20 Subat - 20 Mart"
   ];
 
+  // ignore: constant_identifier_names
   static const List<String> BURC_GENEL_OZELLIKLERI = [
     "\tGenel Özellikler\n\n"
         "\tYönetici yıldızınız: Mars\n\n"
