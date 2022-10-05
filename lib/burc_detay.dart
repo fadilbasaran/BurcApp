@@ -19,7 +19,7 @@ class _BurcDetayState extends State<BurcDetay> {
   void initState() {
     super.initState();
     appBarRenginiBul();
-    WidgetsBinding.instance!.addPostFrameCallback((_) => appBarRenginiBul());
+    WidgetsBinding.instance.addPostFrameCallback((_) => appBarRenginiBul());
     // _generator=PaletteGenerator.fromImageProvider(AssetImage(assetName))
   }
 
